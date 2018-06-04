@@ -1,1 +1,1 @@
-# deats-server
+# server
