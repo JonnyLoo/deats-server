@@ -9,7 +9,7 @@
     "start": "node index.js",
     "dboff": "killall mongod",
     "watch": "nodemon index.js",
-    "dbon": "mkdir -p ./db && mongod --dbpath ./db"
+    "dbon": "mkdir -p ./db && mongod --storageEngine=mmapv1 --dbpath ./db"
   },
   "keywords": [],
   "author": "",
